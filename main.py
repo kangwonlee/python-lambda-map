@@ -1,6 +1,4 @@
-for i in (1, 2, 3, 4,):
-  if 2 < i:
-    break
-  print("i =", i)
+s = (1, 'a', 3, 4)
 
-print("i after the for loop =", i)
+for i in map(lambda x: x*2, s):
+  print("i =", i)
